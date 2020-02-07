@@ -1,0 +1,13 @@
+Te adjunto script para subir los XML y se agreguen  los datos a las facturas, 
+este script considera que el nombre del XML debe ser el ID de la factura 
+separado por un signo | y después el resto del documento.
+
+Por ejemplo 
+48842|e636056d-63c4-4066-8936-9aade3a39486.xml
+Ese XML correspondería a la factura 48842
+Los XML deben estár en el mismo directorio donde se encuentra el script y este se ejecuta con el siguiente comando.
+python import_customer_invoices_xml_v10.py
+Considera que debes tener instaladas las librerías odoorpc y lxml para que este script funcione.
+Este script sube solamente el XML, el PDF se tendría que subir manualmente
+
+hector@hector-Latitude-E7440:~/odoo/scripts$ bpython import_customer_invoices_xml_v10.py
