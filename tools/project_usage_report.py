@@ -18,7 +18,7 @@ database = 'mtnmx120'
 # database = 'mt120'
 
 username = 'hherrera@mtnmx.com'
-password = 'Ivan/2022/Fer'
+password = 'tobeupdated'
 
 odoo = odoorpc.ODOO(url, protocol, port)
 odoo.login(database, username, password)
